@@ -1,3 +1,6 @@
+"""JUAN CARLO FERREIRA TALLER 3 """
+
+
 import numpy as np
 
 # Coeficientes de la ecuación cuadrática
@@ -19,3 +22,4 @@ else:
     real = -b / (2*a)
     imag = np.sqrt(abs(discriminante)) / (2*a)
     print(f"Soluciones complejas: x1 = {real}+{imag}j, x2 = {real}-{imag}j")
+
